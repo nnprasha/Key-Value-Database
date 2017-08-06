@@ -3,6 +3,11 @@ database. A Template class was implemented that provided a Key/Value in-memory d
 category name, text description, time-date recording the written time to the database and a list of child relationships with other values.
 Functions were included to support complex queries to the database (union/intersections of two or more keys).
 
+Input to the database is in the form of an xml file. A specified xml structure has been followed to extract key values from the Xml file (refer XmlInputs folder). 
+
+The database has been persisted by converting the database data to XML Files and are being saved to the XmlOutputs folder. 
+
+
 To run the application: 
 
 --> run compile.bat
