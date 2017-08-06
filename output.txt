@@ -1,0 +1,976 @@
+-------------------------------------------------------------
+        WELCOME TO NO-SQL DATABASE
+-------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+         DISPLAYING PROGRAM STRUCTURE FROM XML FILE ../XmlInputs/NoSqlDB-ProjectStructure.xml THAT HAS BEEN PARSED AND IS OUR INPUT FOR REQ DEMO
+-----------------------------------------------------------------------------------------------
+
+  <NoSqlDB>
+    <Element>
+      <Key>
+        TestExecutive
+
+      </Key>
+      <Value>
+        <name>
+          TestExecutive.h
+
+        </name>
+        <description>
+          A class that demonstrates all requirements
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+          <child>
+            NoSqlDB
+          </child>
+          <child>
+            Query
+          </child>
+        </children>
+        <data>
+          Data1
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        NoSqlDB
+
+      </Key>
+      <Value>
+        <name>
+          NoSqlDB.h
+
+        </name>
+        <description>
+          The database class that stores an unordered map as the NoSql Database.
+
+        </description>
+        <category>
+          Library/Execution(.cpp)
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+          <child>
+            CppProperties
+          </child>
+          <child>
+            Convert
+          </child>
+          <child>
+            StrHelper
+          </child>
+          <child>
+            XMLDocument
+          </child>
+          <child>
+            XMLElement
+          </child>
+          <child>
+            XMLParser
+          </child>
+        </children>
+        <data>
+          Data2
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        Convert
+
+      </Key>
+      <Value>
+        <name>
+          Convert.h
+
+        </name>
+        <description>
+          Converts templates toString and FromString.
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data3
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        Query
+
+      </Key>
+      <Value>
+        <name>
+          Query.h
+
+        </name>
+        <description>
+          A class that executes all queries
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+          <child>
+            NoSqlDB
+          </child>
+        </children>
+        <data>
+          Data4
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        CppProperties
+
+      </Key>
+      <Value>
+        <name>
+          CppProperties.h
+
+        </name>
+        <description>
+          A class that defines Properties.
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data5
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        XMLDocument
+
+      </Key>
+      <Value>
+        <name>
+          XMLDocument.h
+
+        </name>
+        <description>
+          A class that handles XML Operations
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data6
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        StrHelper
+
+      </Key>
+      <Value>
+        <name>
+          StrHelper.h
+
+        </name>
+        <description>
+          A class that defines trim functions of string class.
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data7
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        XMLParser
+
+      </Key>
+      <Value>
+        <name>
+          XMLParser.h
+
+        </name>
+        <description>
+          A class that handles XML Operations
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data8
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        XMLElement
+
+      </Key>
+      <Value>
+        <name>
+          XMLElement.h
+
+        </name>
+        <description>
+          A class that handles XML Operations
+
+        </description>
+        <category>
+          Library
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          Data8
+
+        </data>
+      </Value>
+    </Element>
+  </NoSqlDB>
+-----------------------------------------------------------------------------------
+         REQUIREMENT NUMBER 2 and 5 - RETRIEVING DATA FROM XML AND CREATING THE DATABASE (FOR STRING DATABASE)
+-----------------------------------------------------------------------------------
+--> Xml File from which the input is being taken: ../XmlInputs/NoSqlDB-ProjectStructure.xml
+
+--> XML File Parsed and Database successfuly created!!
+
+--> DATABASE ELEMENTS DISPLAY: (Requirement 2)
+
+    Key      : XMLParser
+    name     : XMLParser.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : TestExecutive
+    name     : TestExecutive.h
+    category : Library
+    Desc     : A class that demonstrates all requirements
+    timeDate : 2017-08-06.18:59:49
+    data     : Data1
+    children : NoSqlDB,Query
+
+    Key      : NoSqlDB
+    name     : NoSqlDB.h
+    category : Library/Execution(.cpp)
+    Desc     : The database class that stores an unordered map as the NoSql Database.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data2
+    children : CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser
+
+    Key      : StrHelper
+    name     : StrHelper.h
+    category : Library
+    Desc     : A class that defines trim functions of string class.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data7
+    children : NULL
+
+    Key      : Convert
+    name     : Convert.h
+    category : Library
+    Desc     : Converts templates toString and FromString.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data3
+    children : NULL
+
+    Key      : XMLDocument
+    name     : XMLDocument.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data6
+    children : NULL
+
+    Key      : Query
+    name     : Query.h
+    category : Library
+    Desc     : A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Data4
+    children : NoSqlDB
+
+    Key      : CppProperties
+    name     : CppProperties.h
+    category : Library
+    Desc     : A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : XMLElement.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+-->Augmenting data to the database from xml file: ../XMLInputs/NoSqlDB-AugmentedInput.xml (REQUIREMENT 5)
+--> DATABASE ELEMENTS DISPLAY AFTER AUGMENTED DATA HAS BEEN ADDED:
+
+    Key      : XMLParser
+    name     : XMLParser.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : TestExecutive
+    name     : TestExecutive.h
+    category : Library
+    Desc     : A class that demonstrates all requirements
+    timeDate : 2017-08-06.18:59:49
+    data     : Data1
+    children : NoSqlDB,Query
+
+    Key      : NoSqlDB
+    name     : NoSqlDB.h
+    category : Library/Execution(.cpp)
+    Desc     : The database class that stores an unordered map as the NoSql Database.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data2
+    children : CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser
+
+    Key      : StrHelper
+    name     : StrHelper.h
+    category : Library
+    Desc     : A class that defines trim functions of string class.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data7
+    children : NULL
+
+    Key      : Convert
+    name     : Convert.h
+    category : Library
+    Desc     : Converts templates toString and FromString.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data3
+    children : NULL
+
+    Key      : XMLDocument
+    name     : XMLDocument.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data6
+    children : NULL
+
+    Key      : Query
+    name     : Query.h
+    category : Library
+    Desc     : A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Data4
+    children : NoSqlDB
+
+    Key      : CppProperties
+    name     : CppProperties.h
+    category : Library
+    Desc     : A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : XMLElement.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : AugmentedKey
+    name     : AugmentedName
+    category : AugmentedCategory
+    Desc     : AugmentedDescription
+    timeDate : 2017-08-06.18:59:49
+    data     : AugmentedData
+    children : NULL
+
+
+ Swithcing On Timed Saving of Database to XML (Requirement number 6, Line number 22-34 in NoSqlDB.cpp)
+
+-->[SCHEDULED SAVE NUMBER 1 to XML FILE: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:49.xml]
+------------------------------------------------------------------
+        REQUIREMENT NO 3 and 4- ADDITION OF NEW ELEMENTS (and adding child relationships)
+------------------------------------------------------------------
+
+
+--> New Element 1 stored to the database with key: NewKey1
+
+--> New Element 2 stored to the database with key: NewKey2
+
+--> Displaying Database Items After Addition of new items:
+    Key      : XMLParser
+    name     : XMLParser.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : TestExecutive
+    name     : TestExecutive.h
+    category : Library
+    Desc     : A class that demonstrates all requirements
+    timeDate : 2017-08-06.18:59:49
+    data     : Data1
+    children : NoSqlDB,Query
+
+    Key      : NoSqlDB
+    name     : NoSqlDB.h
+    category : Library/Execution(.cpp)
+    Desc     : The database class that stores an unordered map as the NoSql Database.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data2
+    children : CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser
+
+    Key      : StrHelper
+    name     : StrHelper.h
+    category : Library
+    Desc     : A class that defines trim functions of string class.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data7
+    children : NULL
+
+    Key      : Convert
+    name     : Convert.h
+    category : Library
+    Desc     : Converts templates toString and FromString.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data3
+    children : NULL
+
+    Key      : NewKey1
+    name     : NewElement1
+    category : NewCategory1
+    Desc     : NewDesc1
+    timeDate : 2017-08-06.18:59:49
+    data     : NewData1
+    children : XMLParser,TestExecutive,NoSqlDB,StrHelper,Convert,XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+    Key      : XMLDocument
+    name     : XMLDocument.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data6
+    children : NULL
+
+    Key      : Query
+    name     : Query.h
+    category : Library
+    Desc     : A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Data4
+    children : NoSqlDB
+
+    Key      : CppProperties
+    name     : CppProperties.h
+    category : Library
+    Desc     : A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : XMLElement.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : AugmentedKey
+    name     : AugmentedName
+    category : AugmentedCategory
+    Desc     : AugmentedDescription
+    timeDate : 2017-08-06.18:59:49
+    data     : AugmentedData
+    children : NULL
+
+    Key      : NewKey2
+    name     : NewElement2
+    category : NewCategory2
+    Desc     : NewDesc2
+    timeDate : 2017-08-06.18:59:49
+    data     : NewData2
+    children : XMLParser,TestExecutive,NoSqlDB,StrHelper,Convert,NewKey1,XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+
+-->[SCHEDULED SAVE NUMBER 2 to XML FILE: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:50.xml]
+------------------------------------------------------------------
+        REQUIREMENT NO 7- EXECUTION OF QUERIES
+------------------------------------------------------------------
+
+
+-->State of the database before execution of queries begin:
+    Key      : XMLParser
+    name     : XMLParser.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : TestExecutive
+    name     : TestExecutive.h
+    category : Library
+    Desc     : A class that demonstrates all requirements
+    timeDate : 2017-08-06.18:59:49
+    data     : Data1
+    children : NoSqlDB,Query
+
+    Key      : NoSqlDB
+    name     : NoSqlDB.h
+    category : Library/Execution(.cpp)
+    Desc     : The database class that stores an unordered map as the NoSql Database.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data2
+    children : CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser
+
+    Key      : StrHelper
+    name     : StrHelper.h
+    category : Library
+    Desc     : A class that defines trim functions of string class.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data7
+    children : NULL
+
+    Key      : Convert
+    name     : Convert.h
+    category : Library
+    Desc     : Converts templates toString and FromString.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data3
+    children : NULL
+
+    Key      : NewKey1
+    name     : NewElement1
+    category : NewCategory1
+    Desc     : NewDesc1
+    timeDate : 2017-08-06.18:59:49
+    data     : NewData1
+    children : XMLParser,TestExecutive,NoSqlDB,StrHelper,Convert,XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+    Key      : XMLDocument
+    name     : XMLDocument.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data6
+    children : NULL
+
+    Key      : Query
+    name     : Query.h
+    category : Library
+    Desc     : A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Data4
+    children : NoSqlDB
+
+    Key      : CppProperties
+    name     : CppProperties.h
+    category : Library
+    Desc     : A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : XMLElement.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : AugmentedKey
+    name     : AugmentedName
+    category : AugmentedCategory
+    Desc     : AugmentedDescription
+    timeDate : 2017-08-06.18:59:49
+    data     : AugmentedData
+    children : NULL
+
+    Key      : NewKey2
+    name     : NewElement2
+    category : NewCategory2
+    Desc     : NewDesc2
+    timeDate : 2017-08-06.18:59:49
+    data     : NewData2
+    children : XMLParser,TestExecutive,NoSqlDB,StrHelper,Convert,NewKey1,XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+--> Query1- Returning the value of the specified key: NoSqlDB
+    Key      : NoSqlDB
+    name     : NoSqlDB.h
+    category : Library/Execution(.cpp)
+    Desc     : The database class that stores an unordered map as the NoSql Database.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data2
+    children : CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser
+
+-->Query2- Returning Children of a specified Key: NoSqlDB
+        -->CppProperties
+        -->Convert
+        -->StrHelper
+        -->XMLDocument
+        -->XMLElement
+        -->XMLParser
+
+--> Query3- Return all keys that contain the specified string : "Exec"
+        -->Key: TestExecutive
+
+-->Executing Query Number 4 over the keys that were obtained in Query Number 2 (Requirement Number 8)
+        -->Query No 4- Return all keys from a given set of keys that contain a specified string: "XML" in their item name.
+                -->Set of keys that are given(Obtained in Query2): <CppProperties,Convert,StrHelper,XMLDocument,XMLElement,XMLParser,>
+                --> Keys that contain the specifiedString "XML" in their item name:
+                        -->XMLDocument
+                        -->XMLElement
+                        -->XMLParser
+
+-->Executing Query Number 5 over the keys that were obtained in Query Number 3 (Requirement Number 8)
+        -->Query No 5- Return all keys from a given set of keys that contain a specified string: "abc" in their category name.
+                -->Set of keys that are given(Obtained in Query3): <TestExecutive,>
+                --> Keys that start with a specifiedString "abc" in their category name:  NULL (NO KEYS)
+
+-->Executing Query Number 6 over the UNION OF KEYS that were obtained in Query Number 2 and 3 (Requirement Number 9)
+        -->Query No 6- Return all keys with string data in database.
+                -->Set of given keys(Union of keys obtained in query 2 and 3): <Convert,CppProperties,StrHelper,TestExecutive,XMLDocument,XMLElement,XMLParser,>
+                -->Keys that satisfy the Query:
+                        -->Convert
+                        -->CppProperties
+                        -->StrHelper
+                        -->TestExecutive
+                        -->XMLDocument
+                        -->XMLElement
+                        -->XMLParser
+
+-->Executing Query Number 7 over the UNION OF KEYS that were obtained in Query Number 4 and 5 (Requirement Number 9)
+        -->Query No 7- Return all keys within specified time period.
+                -->Set of given keys(Union of keys obtained in query 4 and 5): <XMLDocument,XMLElement,XMLParser,>
+                -->Begin time: 2017-01-03.19:55:55
+                -->End time:2017-03-04.19:55:55
+                 All Keys within the above specified time periods:  NULL (NO KEYS)
+------------------------------------------------------------------
+        REQUIREMENT NO 3 and 4- DELETION OF ELEMENTS FROM DATABASE (and deletion of child relationships)
+------------------------------------------------------------------
+
+
+--> Deleting database entry which has key: XMLParser
+
+--> Deleting database entry which has key: TestExecutive
+
+--> Deleting database entry which has key: NoSqlDB
+
+--> Deleting database entry which has key: StrHelper
+
+--> Deleting database entry which has key: Convert
+
+--> Deleting database entry which has key: NewKey1
+
+--> Displaying Database Items After Deletion of items:
+    Key      : XMLDocument
+    name     : XMLDocument.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data6
+    children : NULL
+
+    Key      : Query
+    name     : Query.h
+    category : Library
+    Desc     : A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Data4
+    children : NULL
+
+    Key      : CppProperties
+    name     : CppProperties.h
+    category : Library
+    Desc     : A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : XMLElement.h
+    category : Library
+    Desc     : A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Data8
+    children : NULL
+
+    Key      : AugmentedKey
+    name     : AugmentedName
+    category : AugmentedCategory
+    Desc     : AugmentedDescription
+    timeDate : 2017-08-06.18:59:49
+    data     : AugmentedData
+    children : NULL
+
+    Key      : NewKey2
+    name     : NewElement2
+    category : NewCategory2
+    Desc     : NewDesc2
+    timeDate : 2017-08-06.18:59:49
+    data     : NewData2
+    children : XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+
+-->[SCHEDULED SAVE NUMBER 3 to XML FILE: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:50.xml]
+------------------------------------------------------------------
+        REQUIREMENT NO 4- EDITING OF DATABASE
+------------------------------------------------------------------
+
+
+-->Editing Values for key: XMLDocument
+        -->Updating name from "XMLDocument.h" to "Updated-XMLDocument.h"
+        -->Updating category from "Library" to "Updated-Library"
+        -->Updating description from "A class that handles XML Operations" to "Updated-A class that handles XML Operations"
+        -->Updating data from "Data6" to "Updated-Data6"
+
+-->Editing Values for key: Query
+        -->Updating name from "Query.h" to "Updated-Query.h"
+        -->Updating category from "Library" to "Updated-Library"
+        -->Updating description from "A class that executes all queries" to "Updated-A class that executes all queries"
+        -->Updating data from "Data4" to "Updated-Data4"
+
+-->Editing Values for key: CppProperties
+        -->Updating name from "CppProperties.h" to "Updated-CppProperties.h"
+        -->Updating category from "Library" to "Updated-Library"
+        -->Updating description from "A class that defines Properties." to "Updated-A class that defines Properties."
+        -->Updating data from "Data5" to "Updated-Data5"
+
+-->Editing Values for key: XMLElement
+        -->Updating name from "XMLElement.h" to "Updated-XMLElement.h"
+        -->Updating category from "Library" to "Updated-Library"
+        -->Updating description from "A class that handles XML Operations" to "Updated-A class that handles XML Operations"
+        -->Updating data from "Data8" to "Updated-Data8"
+
+-->Editing Values for key: AugmentedKey
+        -->Updating name from "AugmentedName" to "Updated-AugmentedName"
+        -->Updating category from "AugmentedCategory" to "Updated-AugmentedCategory"
+        -->Updating description from "AugmentedDescription" to "Updated-AugmentedDescription"
+        -->Updating data from "AugmentedData" to "Updated-AugmentedData"
+
+-->Editing Values for key: NewKey2
+        -->Updating name from "NewElement2" to "Updated-NewElement2"
+        -->Updating category from "NewCategory2" to "Updated-NewCategory2"
+        -->Updating description from "NewDesc2" to "Updated-NewDesc2"
+        -->Updating data from "NewData2" to "Updated-NewData2"
+
+--> Displaying Database Items After editing:
+    Key      : XMLDocument
+    name     : Updated-XMLDocument.h
+    category : Updated-Library
+    Desc     : Updated-A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-Data6
+    children : NULL
+
+    Key      : Query
+    name     : Updated-Query.h
+    category : Updated-Library
+    Desc     : Updated-A class that executes all queries
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-Data4
+    children : NULL
+
+    Key      : CppProperties
+    name     : Updated-CppProperties.h
+    category : Updated-Library
+    Desc     : Updated-A class that defines Properties.
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-Data5
+    children : NULL
+
+    Key      : XMLElement
+    name     : Updated-XMLElement.h
+    category : Updated-Library
+    Desc     : Updated-A class that handles XML Operations
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-Data8
+    children : NULL
+
+    Key      : AugmentedKey
+    name     : Updated-AugmentedName
+    category : Updated-AugmentedCategory
+    Desc     : Updated-AugmentedDescription
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-AugmentedData
+    children : NULL
+
+    Key      : NewKey2
+    name     : Updated-NewElement2
+    category : Updated-NewCategory2
+    Desc     : Updated-NewDesc2
+    timeDate : 2017-08-06.18:59:49
+    data     : Updated-NewData2
+    children : XMLDocument,Query,CppProperties,XMLElement,AugmentedKey
+
+
+-->[SCHEDULED SAVE NUMBER 4 to XML FILE: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:50.xml]
+
+ Swithcing Off Timed Saving of Database to XML (Requirement number 6, Line number 67-68 in NoSqlDB.cpp)
+
+--> SCHEDULE SAVING IS TURNED OFF AFTER 4 NUMBER OF SAVES
+
+
+-----------------------------------------------------------------------------------------------
+         XML FILE WITH INTEGER DATA: ../XmlInputs/NoSqlDb-Integer.xml
+-----------------------------------------------------------------------------------------------
+
+  <NoSqlDB>
+    <Element>
+      <Key>
+        Key1
+
+      </Key>
+      <Value>
+        <name>
+          Element1
+
+        </name>
+        <description>
+          Description1
+
+        </description>
+        <category>
+          Category1
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+        </children>
+        <data>
+          1
+
+        </data>
+      </Value>
+    </Element>
+    <Element>
+      <Key>
+        Key2
+
+      </Key>
+      <Value>
+        <name>
+          Element2
+
+        </name>
+        <description>
+          Description2
+
+        </description>
+        <category>
+          Category2
+
+        </category>
+        <TimeDate>
+        </TimeDate>
+        <children>
+          <child>
+            Key1
+          </child>
+        </children>
+        <data>
+          2
+
+        </data>
+      </Value>
+    </Element>
+  </NoSqlDB>
+-----------------------------------------------------------------------------------
+         REQUIREMENT NUMBER 2 and 5 - RETRIEVING DATA FROM XML AND CREATING THE DATABASE (FOR INTEGER DATABASE)
+-----------------------------------------------------------------------------------
+--> Xml File from which the input is being taken: ../XmlInputs/NoSqlDb-Integer.xml
+
+--> XML File Parsed and Database successfuly created!!
+
+--> DATABASE ELEMENTS DISPLAY: (Requirement 2)
+
+    Key      : Key1
+    name     : Element1
+    category : Category1
+    Desc     : Description1
+    timeDate : 2017-08-06.18:59:50
+    data     : 1
+    children : NULL
+
+    Key      : Key2
+    name     : Element2
+    category : Category2
+    Desc     : Description2
+    timeDate : 2017-08-06.18:59:50
+    data     : 2
+    children : Key1
+
+-->Persisting Database to XML on exit. XML that was saved: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:50.xml (Requirement 5)
+-->Persisting Database to XML on exit. XML that was saved: ../XmlOutputs/NoSqlDB-2017-08-06.18:59:51.xml (Requirement 5)
+
