@@ -4,7 +4,9 @@ category name, text description, time-date recording the written time to the dat
 Functions were included to support complex queries to the database (union/intersections of two or more keys).
 
 To run the application: 
+
 --> run compile.bat
+
 --> run run.bat
 
 
@@ -12,10 +14,17 @@ Output has been provided in the output.txt file.
 
 The queries that have been supported: 
 --> The value of a specified key.
+
 --> The children of a specified key.
+
 --> The set of all keys matching a specified pattern which defaults to all keys.
+
 --> All keys that contain a specified string in their item name
+
 --> All keys that contain a specified string in their category name
+
 --> All keys that contain a specified string in their template data section when that makes sense.
+
 --> All keys that contain values written within a specified time-date interval. If only one end of the interval is provided shall take the present as the other end of the interval.
+
 Each query accepts a list of keys and returns a collection of keys from the list that match the query.
